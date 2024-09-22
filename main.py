@@ -1,6 +1,7 @@
 # INF601 - Advanced Programming in Python
 # Marcos German
 # Mini Project 2
+
 import pandas as pd
 import matplotlib.pyplot as plt
 import os
