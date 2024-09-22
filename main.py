@@ -4,14 +4,14 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-#Load Netflix titles dataset
+# Load Netflix titles dataset
 df = pd.read_csv('titles.csv')
 
-#Display info and preview dataset
+# Display info and preview dataset
 print(df.info())
 print(df.head())
 
-#Count number of movies released per year
+# Count number of movies released per year
 data = df['release_year'].value_counts().sort_index()
 
 #Create bar chart
@@ -21,3 +21,6 @@ plt.title('Number of Netflix Movies Released per Year')
 plt.xlabel('Year')
 plt.ylabel('Number of Titles')
 plt.show()
+
+# Save as PNG file
+plt.savefig('netflix_titles_releases_per_year.png')
