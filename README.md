@@ -28,6 +28,8 @@ This project aims to analyze and visualize a Netflix's movie dataset. Showing th
     pip install pandas matpoblib
 4. Install the Required Packages:
     pip install -r requirements.txt
+5. Download the CSV file from this web https://www.kaggle.com/datasets/victorsoeiro/netflix-tv-shows-and-movies?resource=download
+6. Ensure the csv file is located in the same directory as the Python scripts
 
 
 ### Executing program
