@@ -21,13 +21,21 @@ This project aims to analyze and visualize a Netflix's movie dataset. Showing th
 
 ### Installing
 1. Clone the repository:
+```
     git clone https://github.com/marcossgerman10/miniproject2MarcosGerman.git
+```
 2. Navigate to the Project Directory:
+```
     cd miniproject2MarcosGerman
+```
 3. Install pandas and matpoblib:
+```
     pip install pandas matpoblib
+```
 4. Install the Required Packages:
-    pip install -r requirements.txt
+```
+pip install -r requirements.txt
+ ```
 5. Download the CSV file from this web https://www.kaggle.com/datasets/victorsoeiro/netflix-tv-shows-and-movies?resource=download
 6. Ensure the csv file is located in the same directory as the Python scripts
 
@@ -35,7 +43,9 @@ This project aims to analyze and visualize a Netflix's movie dataset. Showing th
 ### Executing program
 1. Ensure that all dependencies are installed and you are in the project directory
 2. Run the Python script to fetch data and generate graphs:
-    python main.py
+```
+python main.py
+```
 
 ### Help
 If you encounter issues, ensure the following:
